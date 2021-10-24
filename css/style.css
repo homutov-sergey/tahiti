@@ -14,6 +14,14 @@
   font-display: swap;
   src: url(../fonts/Gotham-Bold.woff2) format('woff2');
 }
+
+@font-face {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(../fonts/Gotham-Light.woff2) format('woff2');
+}
 /* fonts end */
 
 img {
@@ -63,9 +71,6 @@ img {
 
 }
 
-
-
-
 /* .welcome {
 	min-height: 630px;
 } */
@@ -95,7 +100,8 @@ img {
 }
 
 .welcome-slider__text-title span {
-  font-family: "Gotham Book";
+  font-family: "Gotham";
+  font-weight: 100;
 }
 
 .welcome-slider__text-subtitle {
