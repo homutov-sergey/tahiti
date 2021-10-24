@@ -7,6 +7,15 @@
   src: url(../fonts/Gotham-Book.woff2) format('woff2');
 }
 
+/* fonts */
+@font-face {
+  font-family: 'Gotham Narrow';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(../fonts/Gotham-Narrow-Book-Italic.woff2) format('woff2');
+}
+
 @font-face {
   font-family: 'Gotham';
   font-style: normal;
@@ -79,7 +88,7 @@ img {
 }
 
 /* .welcome {
-	min-height: 630px;
+	max-height: 630px;
 } */
 
 .welcome-slider {
@@ -196,3 +205,40 @@ img {
 }
 
 /* discover end */
+
+
+/* experience */
+
+.experience {
+  background: url("/img/experoence-bg.jpg") no-repeat top center / cover;
+  padding: 80px;
+}
+
+.experience__title {
+}
+.experience__subtitle {
+}
+.experience-box {
+  margin: 240px auto 0;
+  max-width: 980px;
+  text-align: center;
+}
+.experience-box__text {
+  font-family: "Gotham Narrow";
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+  margin-bottom: 35px;
+}
+.experience-box__link {
+  display: inline-block;
+  font-family: "Gotham Book";
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 20px 72px; 
+  background: #ee2255;
+}
+
+/* END experience */
