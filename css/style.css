@@ -54,7 +54,6 @@ img {
   padding: 0 0 0 28px;
 }
 
-
 .header-menu__list-link {
   font-family: "Gotham Book";
   font-size: 18px;
@@ -74,8 +73,6 @@ img {
 .welcome-slider {
   position: relative;
   width: 100%;
-  text-align: center;
-  color: #fff;
 }
 
 .welcome-slider__text {
@@ -83,7 +80,9 @@ img {
   left:0;
   right: 0;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-51%);
+  text-align: center;
+  color: #fff;
 }
 
 .welcome-slider__text-title {
@@ -92,5 +91,42 @@ img {
   font-size: 64px;
   text-transform: uppercase;
   margin: 0;
-  /* letter-spacing: normal; */
+  letter-spacing: normal;
 }
+
+.welcome-slider__text-title span {
+  font-family: "Gotham Book";
+}
+
+.welcome-slider__text-subtitle {
+  font-family: "Gotham";
+  font-weight: 100;
+}
+
+/* discover */
+.discover {
+  background: #fbfbed;
+  padding: 80px 0;
+}
+
+.discover-title {
+  margin: 0;
+  font-family: "Gotham";
+  font-weight: 700;
+  font-size: 40px;
+  color: #3dbe98;
+  text-transform: uppercase;
+}
+
+.discover-items {
+  display:flex;
+  justify-content: space-between;
+}
+
+.discover-items__item {
+  flex-basis: 285px;
+  background: #fff;
+}
+
+
+/* discover end */
