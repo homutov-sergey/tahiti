@@ -85,9 +85,10 @@ img {
   left:0;
   right: 0;
   top: 50%;
-  transform: translateY(-51%);
+  transform: translateY(-50%);
   text-align: center;
   color: #fff;
+  margin-left: 7px;
 }
 
 .welcome-slider__text-title {
@@ -107,6 +108,8 @@ img {
 .welcome-slider__text-subtitle {
   font-family: "Gotham";
   font-weight: 100;
+  font-size: 32px;
+  margin: 20px 0 0 0;
 }
 
 /* discover */
