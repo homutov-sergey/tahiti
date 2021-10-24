@@ -23,6 +23,13 @@
   src: url(../fonts/Gotham-Light.woff2) format('woff2');
 }
 /* fonts end */
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
 
 img {
   width: 100%;
@@ -115,7 +122,7 @@ img {
 /* discover */
 .discover {
   background: #fbfbed;
-  padding: 80px 0;
+  padding: 74px 0;
 }
 
 .discover-title {
@@ -127,15 +134,65 @@ img {
   text-transform: uppercase;
 }
 
+.discover-title span {
+  font-family: "Gotham";
+  font-weight: 100;
+}
+
+.discover-subtitle {
+  font-size: 14px;
+  font-family: "Gotham";
+  font-weight: 100;
+  color: #767671;
+  margin-top: 8px;
+}
+
 .discover-items {
   display:flex;
   justify-content: space-between;
+  margin-top: 47px;
 }
 
 .discover-items__item {
+  display: flex;
+  flex-direction: column;
   flex-basis: 285px;
   background: #fff;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
+.discover-items__box {
+  padding: 16px 18px 19px 18px;
+  flex: 1 0 auto;
+}
+.discover-items__box-title {
+  font-size: 24px;
+  font-family: "Gotham Book";
+  color: #3dbe98;
+  text-transform: uppercase;
+}
+.discover-items__box-text {
+  color: #696969;
+  font-size: 14px;
+  font-family: "Gotham";
+  font-weight: 100;
+  margin-top: 13px;
+}
+.discover-items__link {
+  font-family: "Gotham";
+  font-weight: 100;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #aee0cf;
+  background: #3dbe98;
+  padding: 20px 20px 17px 20px ;
+}
+
+.discover-items__link span {
+  font-family: "Gotham Book";
+  color: #fff;
+  font-size: 20px;
+  margin-left: 2px;
+}
 
 /* discover end */
