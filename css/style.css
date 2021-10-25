@@ -7,6 +7,14 @@
   src: url(../fonts/Gotham-Book.woff2) format('woff2');
 }
 
+@font-face {
+  font-family: 'Gotham Book';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/Gotham-Book-Regular.woff2) format('woff2');
+}
+
 /* fonts */
 @font-face {
   font-family: 'Gotham Narrow';
@@ -241,3 +249,66 @@ img {
 }
 
 /* END experience */
+
+/* why */
+
+.why {
+  padding: 80px 0;
+}
+
+.why-title {
+  text-align: center;
+}
+.why-list {
+  display: flex;
+  justify-content: space-between;
+}
+.why-list__item {
+  flex-basis: 345px;
+  font-family: "Gotham Book";
+  font-weight: 400;
+  color: #777777;
+  list-style: none;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+/* END why */
+
+/* order */
+
+.order {
+  background: url("/img/slider-3.jpg") no-repeat top center / cover;
+  padding: 135px 0;
+}
+.ordrt-box {
+  background-color: rgb(0, 0, 0, 0.5);
+  /* opacity: 0.5; */
+  text-align: center;
+  color: #fff;
+  padding: 65px 100px;
+}
+.order-box__title {
+  font-family: "Gotham";
+  font-weight: 700;
+  font-size: 40px;
+}
+.order-box__text {
+  font-family: "Gotham Book";
+  font-weight: 100;
+  line-height: 30px;
+  margin: 38px auto;
+  width: 980px;
+}
+.order-box__link {
+  display: inline-block;
+  font-family: "Gotham Book";
+  font-size: 20px;
+  text-transform: uppercase;
+  background: #21b6c7;
+  color: #fff;
+  text-decoration: none;
+  padding: 22px 82px;
+}
+
+/* END order */
