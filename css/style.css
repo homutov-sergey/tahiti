@@ -53,6 +53,21 @@ img {
   height: auto;
 }
 
+.title {
+  font-family: "Gotham";
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.title span {
+  font-weight: 100;
+}
+
+.subtitle {
+  font-family: "Gotham";
+  font-weight: 100;
+}
+
 .container {
 	margin: 0 auto;
 	width: 100%;
@@ -143,12 +158,8 @@ img {
 }
 
 .discover-title {
-  margin: 0;
-  font-family: "Gotham";
-  font-weight: 700;
   font-size: 40px;
   color: #3dbe98;
-  text-transform: uppercase;
 }
 
 .discover-title span {
@@ -157,8 +168,6 @@ img {
 
 .discover-subtitle {
   font-size: 14px;
-  font-family: "Gotham";
-  font-weight: 100;
   color: #767671;
   margin-top: 8px;
 }
@@ -219,12 +228,17 @@ img {
 
 .experience {
   background: url("/img/experoence-bg.jpg") no-repeat top center / cover;
-  padding: 80px;
+  padding: 74px 0 81px 0;
 }
 
 .experience__title {
+  color: #e62251;
+  font-size: 40px;
 }
 .experience__subtitle {
+  color: #d6d3d3;
+  font-size: 14px;
+  margin-top: 8px;
 }
 .experience-box {
   margin: 240px auto 0;
@@ -236,7 +250,7 @@ img {
   font-size: 20px;
   line-height: 30px;
   color: #fff;
-  margin-bottom: 35px;
+  margin-bottom: 36px;
 }
 .experience-box__link {
   display: inline-block;
@@ -245,7 +259,7 @@ img {
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 20px 72px; 
+  padding: 18px 72px; 
   background: #ee2255;
 }
 
@@ -254,24 +268,29 @@ img {
 /* why */
 
 .why {
-  padding: 80px 0;
+  padding: 74px 0 50px 0;
 }
 
 .why-title {
+  font-size: 40px;
+  color: #ff5d35;
   text-align: center;
 }
 .why-list {
   display: flex;
   justify-content: space-between;
+  padding: 0;
+  margin-top: 40px;
 }
 .why-list__item {
-  flex-basis: 345px;
+  flex-basis: 358px;
   font-family: "Gotham Book";
   font-weight: 400;
   color: #777777;
   list-style: none;
   font-size: 18px;
   line-height: 30px;
+  text-align: center;
 }
 
 /* END why */
