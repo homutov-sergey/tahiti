@@ -204,10 +204,10 @@ img {
   margin-top: 13px;
 }
 .discover-items__link {
-  position: relative;
   font-family: "Gotham";
   font-weight: 100;
   font-size: 14px;
+  text-decoration: none;
   text-transform: uppercase;
   color: #aee0cf;
   background: #3dbe98;
@@ -332,3 +332,50 @@ img {
 }
 
 /* END order */
+
+
+/* footer */
+
+.footer {
+  padding: 41px 0 53px 0;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-container__nav-box {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 630px;
+}
+.footer-container__items {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 250px;
+  margin: 0;
+  padding: 0;
+}
+.footer-container__item {
+  list-style: none;
+  margin-bottom: 5px;
+}
+.footer-container__link {
+  font-family: "Gotham";
+  font-weight: 100;
+  color: #f7a6b5;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.footer-container__link:hover {
+  text-decoration: underline;
+}
+
+
+.footer-soc {
+}
+.footer-soc__item {
+}
+
+
+/* end footer */
