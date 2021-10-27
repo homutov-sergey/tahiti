@@ -227,7 +227,7 @@ img {
 /* experience */
 
 .experience {
-  background: url("/img/experoence-bg.jpg") no-repeat top center / cover;
+  background: url("../img/experoence-bg.jpg") no-repeat top center / cover;
   padding: 74px 0 81px 0;
 }
 
@@ -298,7 +298,7 @@ img {
 /* order */
 
 .order {
-  background: url("/img/slider-3.jpg") no-repeat top center / cover;
+  background: url("../img/slider-3.jpg") no-repeat top center / cover;
   padding: 135px 0;
 }
 .ordrt-box {
