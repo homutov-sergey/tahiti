@@ -73,7 +73,7 @@ img {
 .container {
 	margin: 0 auto;
 	width: 100%;
-	/* max-width: 1200px; */
+	max-width: 1200px;
   /* min-width: 320px; */
 	/* padding: 0 15px; */
 
@@ -163,7 +163,8 @@ img {
 /* discover */
 .discover {
   background: #fbfbed;
-  padding: 74px 0;
+  padding-top: 74px;
+  padding-bottom: 74px;
 }
 
 .discover-title {
@@ -182,19 +183,21 @@ img {
 }
 
 .discover-items {
-  display:flex;
+  /* display:flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
   margin-top: 47px;
 }
 
 .discover-items__item {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   margin-bottom: 20px;
-  flex-basis: 285px;
-  background: #fff;
+  /* flex-basis: 285px; */
+  /* background: #fff; */
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 0;
 }
 
 .discover-items__box {
@@ -287,17 +290,16 @@ img {
   text-align: center;
 }
 .why-list {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
-  padding: 0;
+  padding: 0; */
   margin-top: 40px;
 }
 .why-list__item {
-  flex-basis: 358px;
+  /* flex-basis: 358px; */
   font-family: "Gotham Book";
   font-weight: 400;
   color: #777777;
-  list-style: none;
   font-size: 18px;
   line-height: 30px;
   text-align: center;
@@ -395,23 +397,33 @@ img {
 
 /* media  */
 
-@media (min-width: 576px) {
-  .discover-title {font-size: 28px;}
-}
+@media (max-width: 575.98px) {
+  
 
-@media (min-width: 768px) {
-
-}
-
-@media (min-width: 992px) {
-
-}
-
-@media (min-width: 1200px) {
+  .welcome-slider__text-title {font-size: 30px;}
+  .welcome-slider__text-subtitle {font-size: 16px;margin: 0;}
+  .discover {padding-top: 30px;}
+  .discover-title {font-size: 30px;}
+  .discover-items {margin-top: 28px;}
+  .why {padding: 20px 0;}
+  .why-list {margin-top: 5px;}
+  .why-list__item {border-bottom: 1px solid #ff5d35;margin-bottom: 5px;}
 
 }
 
-@media (min-width: 1400px) {
+@media (max-width: 767.98px) {
+  .header-menu__list-item {border-right:none;}
+}
+
+@media (max-width: 991.98px) {
+
+}
+
+@media (max-width: 1199.98px) {
+
+}
+
+@media (max-width: 1399.98px) {
 
 }
 

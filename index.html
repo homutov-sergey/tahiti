@@ -25,7 +25,7 @@
         </div>
         
         <div class="header-menu">
-          <ul class="header-menu__list">
+          <ul class="mb-0 header-menu__list">
             <li class="nav-item header-menu__list-item">
               <a class="nav-link header-menu__list-link" href="#">Discover</a>
             </li>
@@ -48,7 +48,7 @@
     <div class="slider welcom-slide">
       <div>
         <div class="welcome-slider">
-          <img src="img/slider-1.jpg" alt="slid 1">
+          <img class="img-fluid" src="img/slider-1.jpg" alt="slid 1">
           <div class="welcome-slider__text">
             <h1 class="welcome-slider__text-title">Welcome <span>to tahiti</span> </h1>
             <p class="welcome-slider__text-subtitle">Your vacation starts here</p>
@@ -73,51 +73,60 @@
     <div class="container">
       <h2 class="discover-title title">Discover <span>Tahiti</span> </h2>
       <p class="discover-subtitle subtitle">Just pick your destination. Our travel experts will take care of the rest.</p>
-      <div class="discover-items">
+      <div class="row discover-items">
 
-        <div class="discover-items__item">
-          <img src="img/post_borabora.jpg" width="307" height="184" alt="Bora bora">
-          <div class="discover-items__box">
-            <h2 class="discover-items__box-title">Bora bora</h2>
-            <p class="discover-items__box-text">
-              Surrounded by sand-fringed motus  and a turquoise lagoon protected by a coral reef, Bora Bora is known...
-            </p>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card discover-items__item">
+            <img src="img/post_borabora.jpg" width="307" height="184" alt="Bora bora">
+            <div class="discover-items__box">
+              <h2 class="discover-items__box-title">Bora bora</h2>
+              <p class="discover-items__box-text">
+                Surrounded by sand-fringed motus  and a turquoise lagoon protected by a coral reef, Bora Bora is known...
+              </p>
+            </div>
+            <a href="#" class="discover-items__link">from <span>$2,500</span></a>
           </div>
-          <a href="#" class="discover-items__link">from <span>$2,500</span></a>
         </div>
 
-        <div class="discover-items__item">
-          <img src="img/post_moorea.jpg" width="307" height="184" alt="Moorea">
-          <div class="discover-items__box">
-            <h2 class="discover-items__box-title">Moorea</h2>
-            <p class="discover-items__box-text">
-              Mo'orea is a South Pacific island, part of French Polynesia's Society Islands archipelago. It's known for...
-            </p>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card discover-items__item">
+            <img src="img/post_moorea.jpg" width="307" height="184" alt="Moorea">
+            <div class="discover-items__box">
+              <h2 class="discover-items__box-title">Moorea</h2>
+              <p class="discover-items__box-text">
+                Mo'orea is a South Pacific island, part of French Polynesia's Society Islands archipelago. It's known for...
+              </p>
+            </div>
+            <a href="#" class="discover-items__link">from <span>$2,500</span></a>
           </div>
-          <a href="#" class="discover-items__link">from <span>$2,500</span></a>
         </div>
 
-        <div class="discover-items__item">
-          <img src="img/post_raitea.jpg" width="307" height="184" alt="Ra'iātea">
-          <div class="discover-items__box">
-            <h2 class="discover-items__box-title">Ra'iātea</h2>
-            <p class="discover-items__box-text">
-              Ra'iātea, is the second largest of the Society Islands in French Polynesia. The island is widely regarded as...
-            </p>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card discover-items__item">
+            <img src="img/post_raitea.jpg" width="307" height="184" alt="Ra'iātea">
+            <div class="discover-items__box">
+              <h2 class="discover-items__box-title">Ra'iātea</h2>
+              <p class="discover-items__box-text">
+                Ra'iātea, is the second largest of the Society Islands in French Polynesia. The island is widely regarded as...
+              </p>
+            </div>
+            <a href="#" class="discover-items__link">from <span>$2,500</span></a>
           </div>
-          <a href="#" class="discover-items__link">from <span>$2,500</span></a>
         </div>
 
-        <div class="discover-items__item">
-          <img src="img/post_tahaa.jpg" width="307" height="184" alt="Taha’a">
-          <div class="discover-items__box">
-            <h2 class="discover-items__box-title">Taha’a</h2>
-            <p class="discover-items__box-text">
-              Taha’a is an island located among the western group, the Leeward Islands, of the Society Islands in...
-            </p>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card discover-items__item">
+            <img src="img/post_tahaa.jpg" width="307" height="184" alt="Taha’a">
+            <div class="discover-items__box">
+              <h2 class="discover-items__box-title">Taha’a</h2>
+              <p class="discover-items__box-text">
+                Taha’a is an island located among the western group, the Leeward Islands, of the Society Islands in...
+              </p>
+            </div>
+            <a href="#" class="discover-items__link">from <span>$2,500</span></a>
           </div>
-          <a href="#" class="discover-items__link">from <span>$2,500</span></a>
         </div>
+
 
       </div>
       <p class="discover-text">Discover all Tahiti has to offer.</p>
@@ -147,17 +156,27 @@
   <section class="why">
     <div class="container">
       <h2 class="why-title title">Why <span>tahiti?</span></h2>
-      <ul class="row why-list">
-        <li class="col-xl-4 col-md-4 col-lg-4 col-sm-4 col-12 why-list__item">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean molestie sollicitudin nibh, nec iaculis est luctus sit amet.
-        </li>
-        <li class="col-xl-4 col-md-4 col-lg-4 col-sm-4 col-12 why-list__item">
-          Phasellus vehicula nibh vel arcu tempor, sed porttitor metus viverra. Praesent pharetra scelerisque eros, sed sollicitudin arcu pretium.
-        </li>
-        <li class="col-xl-4 col-md-4 col-lg-4 col-sm-4 col-12 why-list__item">
-          Maecenas ac facilisis dolor. Curabitur vel nulla eget nunc finibus pulvinar. Ut nec ornare nisi. Duis scelerisque volutpat risus vel condimentum. 
-        </li>
-      </ul>
+
+      <div class="row why-list">
+        <div class="col-12 col-sm-4">
+          <div class="why-list__item">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean molestie sollicitudin nibh, nec iaculis est luctus sit amet.
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-4">
+          <div class="why-list__item">
+            Phasellus vehicula nibh vel arcu tempor, sed porttitor metus viverra. Praesent pharetra scelerisque eros, sed sollicitudin arcu pretium.
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-4">
+          <div class="why-list__item">
+            Maecenas ac facilisis dolor. Curabitur vel nulla eget nunc finibus pulvinar. Ut nec ornare nisi. Duis scelerisque volutpat risus vel condimentum. 
+          </div>
+        </div>
+
+      </div>
     </div>
   </section>
 
