@@ -46,46 +46,48 @@
   </header>
 
   <section class="welcome">
+    <div class="container-fluid p-0">
+      <div class="slider welcom-slide">
 
-    <div class="slider welcom-slide">
-
-      <div class="welcome-slider">
-        <div class="welcom-slide__img" style="background-image: url(img/slider-1.jpg);">
-          <div class="welcome-slider__text">
-            <h1 class="welcome-slider__text-title">Welcome <span>to tahiti</span> </h1>
-            <p class="welcome-slider__text-subtitle">Your vacation starts here</p>
+        <div class="welcome-slider">
+          <div class="welcom-slide__img" style="background-image: url(img/slider-1.jpg);">
+            <div class="welcome-slider__text">
+              <h1 class="welcome-slider__text-title">Welcome <span>to tahiti</span> </h1>
+              <p class="welcome-slider__text-subtitle">Your vacation starts here</p>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div class="welcome-slider">
-        <div class="welcom-slide__img" style="background-image: url(img/slider-2.jpg);">
-          <div class="welcome-slider__text">
-            <h1 class="welcome-slider__text-title">Welcome <span>to tahiti</span> </h1>
-            <p class="welcome-slider__text-subtitle">Your vacation starts here</p>
+  
+        <div class="welcome-slider">
+          <div class="welcom-slide__img" style="background-image: url(img/slider-2.jpg);">
+            <div class="welcome-slider__text">
+              <h1 class="welcome-slider__text-title">Welcome <span>to tahiti</span> </h1>
+              <p class="welcome-slider__text-subtitle">Your vacation starts here</p>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div class="welcome-slider">
-        <div class="welcom-slide__img" style="background-image: url(img/slider-3.jpg);">
-          <div class="welcome-slider__text">
-            <h1 class="welcome-slider__text-title">Welcome <span>to tahiti</span> </h1>
-            <p class="welcome-slider__text-subtitle">Your vacation starts here</p>
+  
+        <div class="welcome-slider">
+          <div class="welcom-slide__img" style="background-image: url(img/slider-3.jpg);">
+            <div class="welcome-slider__text">
+              <h1 class="welcome-slider__text-title">Welcome <span>to tahiti</span> </h1>
+              <p class="welcome-slider__text-subtitle">Your vacation starts here</p>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div class="welcome-slider">
-        <div class="welcom-slide__img" style="background-image: url(img/slider-4.jpg);">
-          <div class="welcome-slider__text">
-            <h1 class="welcome-slider__text-title">Welcome <span>to tahiti</span> </h1>
-            <p class="welcome-slider__text-subtitle">Your vacation starts here</p>
+  
+        <div class="welcome-slider">
+          <div class="welcom-slide__img" style="background-image: url(img/slider-4.jpg);">
+            <div class="welcome-slider__text">
+              <h1 class="welcome-slider__text-title">Welcome <span>to tahiti</span> </h1>
+              <p class="welcome-slider__text-subtitle">Your vacation starts here</p>
+            </div>
           </div>
         </div>
+  
       </div>
-
     </div>
+
   </section>
 
   <section class="discover">
@@ -152,12 +154,22 @@
 
       </div>
       <p class="discover-text">Discover all Tahiti has to offer.</p>
-      <select class="discover-select">
-        <option>Select an island</option>
-        <option>Select an island</option>
-        <option>Select an island</option>
-        <option>Select an island</option>
-      </select>
+      <div class="row">
+        <div class="col-12">
+          <form action="">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Select an island</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <button class="button">Explore</button>
+          </form>
+
+        </div>
+      </div>
+
+
     </div>
 
   </section>
@@ -209,9 +221,9 @@
 
   <section class="order bg-pos" style="background-image: url(img/slider-3.jpg);">
     <div class="container">
-      <div class="ordrt-box">
-        <h3 class="order-box__title">Unique vacations, tailored to your desires</h3>
-        <p class="order-box__text">Our travel experts will take care of everything. Whether choosing from our packaged
+      <div class="row ordrt-box">
+        <h3 class="col-12 text-center order-box__title">Unique vacations, tailored to your desires</h3>
+        <p class="col-4 order-box__text">Our travel experts will take care of everything. Whether choosing from our packaged
           vacations or customizing your own, extraordinary service and exceptional value are just a call or click away.
         </p>
         <a href="#" class="order-box__link">Book now</a>
@@ -219,7 +231,7 @@
     </div>
   </section>
 
-  <!-- <footer class="footer">
+  <footer class="footer">
     <div class="container">
       <div class="footer-container">
         <div class="logo footer-logo">
@@ -343,7 +355,7 @@
         </ul>
       </div>
     </div>
-  </footer> -->
+  </footer>
 
   <!-- js files -->
   <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
