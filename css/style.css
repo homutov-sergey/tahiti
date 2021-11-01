@@ -92,7 +92,7 @@ img {
 }
 
 .header {
-	padding: 25px 0 23px 0;
+	padding: 25px 0 16px 0;
 }
 
 .header-menu__list {
@@ -101,8 +101,7 @@ img {
 }
 
 .header-menu__list-item {
-	list-style: none;
-	padding: 0 28px;
+	padding: 0 19px;
 	border-right: 1px solid #ebeda4;
 }
 
@@ -114,7 +113,6 @@ img {
 .header-menu__list-link {
   font-family: "Gotham Book";
   font-size: 18px;
-	text-decoration: none;
 	text-transform: uppercase;
 	color: #ee2255;
 

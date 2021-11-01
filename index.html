@@ -18,7 +18,35 @@
 <body>
   <header class="header">
     <div class="container">
-      <div class="header_container">
+
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">
+            <img src="img/logo.png" width="179" height="44" alt="Tahiti logo">
+          </a>
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item header-menu__list-item">
+                <a class="nav-link header-menu__list-link" href="#">Discover</a>
+              </li>
+              <li class="nav-item header-menu__list-item">
+                <a class="nav-link header-menu__list-link" href="#">Experience</a>
+              </li>
+              <li class="nav-item header-menu__list-item">
+                <a class="nav-link header-menu__list-link" href="#">Travel guides</a>
+              </li>
+              <li class="nav-item header-menu__list-item">
+                <a class="nav-link header-menu__list-link" href="#">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- <div class="header_container">
         <div class="logo header-logo">
           <a href="#">
             <img src="img/logo.png" width="179" height="44" alt="Tahiti logo">
@@ -41,7 +69,7 @@
             </li>
           </ul>
         </div>
-      </div>
+      </div> -->
     </div>
   </header>
 
@@ -92,8 +120,14 @@
 
   <section class="discover">
     <div class="container">
-      <h2 class="discover-title title">Discover <span>Tahiti</span> </h2>
-      <p class="discover-subtitle subtitle">Just pick your destination. Our travel experts will take care of the rest.
+      <div class="row">
+        <div class="col-12">
+          <h2 class="discover-title title">Discover <span>Tahiti</span> </h2>
+        </div>
+        <div class="col-12">
+          <p class="discover-subtitle subtitle">Just pick your destination. Our travel experts will take care of the rest.
+        </div>
+      </div>
       </p>
       <div class="row discover-items">
 
@@ -153,11 +187,15 @@
 
 
       </div>
-      <p class="discover-text">Discover all Tahiti has to offer.</p>
       <div class="row">
+
         <div class="col-12">
-          <form action="">
-            <select class="form-select" aria-label="Default select example">
+          <p class="discover-text">Discover all Tahiti has to offer.</p>
+        </div>
+
+        <div class="col-12">
+          <form action="" class="discover-form">
+            <select class="form-select discover-form__select" aria-label="Default select example">
               <option selected>Select an island</option>
               <option value="1">One</option>
               <option value="2">Two</option>
@@ -165,7 +203,6 @@
             </select>
             <button class="button">Explore</button>
           </form>
-
         </div>
       </div>
 
@@ -176,22 +213,39 @@
 
   <section class="experience bg-pos" style="background-image: url(img/experience-bg.jpg);">
     <div class="container">
-      <h2 class="experience__title  title">Experience <span>tahiti</span></h2>
-      <p class="experience__subtitle subtitle">Immerse yourself in Tahiti’s unique culture</p>
+      <div class="row">
+        <div class="col-12">
+          <h2 class="experience__title  title">Experience <span>tahiti</span></h2>
+        </div>
+        <div class="col-12">
+          <p class="experience__subtitle subtitle">Immerse yourself in Tahiti’s unique culture</p>
+        </div>
+      </div>
       <div class="experience-box">
-        <p class="experience-box__text">
-          The beauty, drama, and power of today’s Tahitian dance testify to its resilience in Polynesian culture. In
-          ancient times, dances were directly linked with all aspects of life. One would dance for joy, to welcome a
-          visitor, to pray to a god, to challenge an enemy, and to seduce a mate.
-        </p>
-        <a href="#" class="experience-box__link">Learn more</a>
+        <div class="row">
+          <div class="col-10">
+            <p class="experience-box__text">
+              The beauty, drama, and power of today’s Tahitian dance testify to its resilience in Polynesian culture. In
+              ancient times, dances were directly linked with all aspects of life. One would dance for joy, to welcome a
+              visitor, to pray to a god, to challenge an enemy, and to seduce a mate.
+            </p>
+          </div>
+          <div class="col-4 offset-md-4">
+            <a href="#" class="experience-box__link">Learn more</a>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
 
   <section class="why">
     <div class="container">
-      <h2 class="why-title title">Why <span>tahiti?</span></h2>
+      <div class="row">
+        <div class="col-12">
+          <h2 class="why-title title">Why <span>tahiti?</span></h2>
+        </div>
+      </div>
 
       <div class="row why-list">
         <div class="col-12 col-sm-4">
@@ -222,68 +276,80 @@
   <section class="order bg-pos" style="background-image: url(img/slider-3.jpg);">
     <div class="container">
       <div class="row ordrt-box">
-        <h3 class="col-12 text-center order-box__title">Unique vacations, tailored to your desires</h3>
-        <p class="col-4 order-box__text">Our travel experts will take care of everything. Whether choosing from our packaged
-          vacations or customizing your own, extraordinary service and exceptional value are just a call or click away.
-        </p>
-        <a href="#" class="order-box__link">Book now</a>
+        <div class="col-12">
+          <h3 class="text-center order-box__title">Unique vacations, tailored to your desires</h3>
+        </div>
+        <div class="co-10">
+          <p class="order-box__text">Our travel experts will take care of everything. Whether choosing from our packaged
+            vacations or customizing your own, extraordinary service and exceptional value are just a call or click away.
+          </p>
+        </div>
+        <div class="col-4 offset-md-4">
+          <a href="#" class="order-box__link">Book now</a>
+        </div>
       </div>
     </div>
   </section>
 
   <footer class="footer">
     <div class="container">
-      <div class="footer-container">
-        <div class="logo footer-logo">
-          <a href="#">
-            <img src="img/logo.png" width="180" height="45" alt="Tahiti logo">
-          </a>
-        </div>
-        
-        <div class="footer-container__nav-box">
-          <ul class="footer-container__items">
-            <li class="footer-container__item">
-              <a href="#" class="footer-container__link">Tahiti</a>
-            </li>
-            <li class="footer-container__item">
-              <a href="#" class="footer-container__link">Bora Bora</a>
-            </li>
-            <li class="footer-container__item">
-              <a href="#" class="footer-container__link">Moorea</a>
-            </li>
-            <li class="footer-container__item">
-              <a href="#" class="footer-container__link">Huahine</a>
-            </li>
-            <li class="footer-container__item">
-              <a href="#" class="footer-container__link">Raiatea</a>
-            </li>
-            <li class="footer-container__item">
-              <a href="#" class="footer-container__link">Taha'a</a>
-            </li>
-            <li class="footer-container__item">
-              <a href="#" class="footer-container__link">Rangiroa</a>
-            </li>
-            <li class="footer-container__item">
-              <a href="#" class="footer-container__link">Tikehau</a>
-            </li>
-            <li class="footer-container__item">
-              <a href="#" class="footer-container__link">Fakarava</a>
-            </li>
-            <li class="footer-container__item">
-              <a href="#" class="footer-container__link">Tetiaroa</a>
-            </li>
-            <li class="footer-container__item">
-              <a href="#" class="footer-container__link">Manihi</a>
-            </li>
-            <li class="footer-container__item">
-              <a href="#" class="footer-container__link">Marquesas</a>
-            </li>
-            <li class="footer-container__item">
-              <a href="#" class="footer-container__link">Australs</a>
-            </li>
-          </ul>
 
-          <ul class="footer-container__items">
+      <!-- <div class="footer-container"> -->
+        <div class="row">
+
+          <div class="col-2">
+            <div class="logo footer-logo">
+              <a href="#">
+                <img src="img/logo.png" width="180" height="45" alt="Tahiti logo">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <ul class="footer-container__items">
+              <li class="footer-container__item">
+                <a href="#" class="footer-container__link">Tahiti</a>
+              </li>
+              <li class="footer-container__item">
+                <a href="#" class="footer-container__link">Bora Bora</a>
+              </li>
+              <li class="footer-container__item">
+                <a href="#" class="footer-container__link">Moorea</a>
+              </li>
+              <li class="footer-container__item">
+                <a href="#" class="footer-container__link">Huahine</a>
+              </li>
+              <li class="footer-container__item">
+                <a href="#" class="footer-container__link">Raiatea</a>
+              </li>
+              <li class="footer-container__item">
+                <a href="#" class="footer-container__link">Taha'a</a>
+              </li>
+              <li class="footer-container__item">
+                <a href="#" class="footer-container__link">Rangiroa</a>
+              </li>
+              <li class="footer-container__item">
+                <a href="#" class="footer-container__link">Tikehau</a>
+              </li>
+              <li class="footer-container__item">
+                <a href="#" class="footer-container__link">Fakarava</a>
+              </li>
+              <li class="footer-container__item">
+                <a href="#" class="footer-container__link">Tetiaroa</a>
+              </li>
+              <li class="footer-container__item">
+                <a href="#" class="footer-container__link">Manihi</a>
+              </li>
+              <li class="footer-container__item">
+                <a href="#" class="footer-container__link">Marquesas</a>
+              </li>
+              <li class="footer-container__item">
+                <a href="#" class="footer-container__link">Australs</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-2">
             <li class="footer-container__item">
               <a href="#" class="footer-container__link">Honeymoons</a>
             </li>
@@ -311,49 +377,65 @@
             <li class="footer-container__item">
               <a href="#" class="footer-container__link">Tailor a Package</a>
             </li>
-          </ul>
+          </div>
+          
+          <div class="col-3">
+            <ul class="footer-container__items">
+              <li class="footer-container__item">
+                <a href="#" class="footer-container__link">About Us</a>
+              </li>
+              <li class="footer-container__item">
+                <a href="#" class="footer-container__link">Reviews</a>
+              </li>
+              <li class="footer-container__item">
+                <a href="#" class="footer-container__link">Contact Us</a>
+              </li>
+              <li class="footer-container__item">
+                <a href="#" class="footer-container__link">Careers</a>
+              </li>
+              <li class="footer-container__item">
+                <a href="#" class="footer-container__link">Terms and Conditions</a>
+              </li>
+              <li class="footer-container__item">
+                <a href="#" class="footer-container__link">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
 
-          <ul class="footer-container__items">
-            <li class="footer-container__item">
-              <a href="#" class="footer-container__link">About Us</a>
-            </li>
-            <li class="footer-container__item">
-              <a href="#" class="footer-container__link">Reviews</a>
-            </li>
-            <li class="footer-container__item">
-              <a href="#" class="footer-container__link">Contact Us</a>
-            </li>
-            <li class="footer-container__item">
-              <a href="#" class="footer-container__link">Careers</a>
-            </li>
-            <li class="footer-container__item">
-              <a href="#" class="footer-container__link">Terms and Conditions</a>
-            </li>
-            <li class="footer-container__item">
-              <a href="#" class="footer-container__link">Privacy Policy</a>
-            </li>
-
-          </ul>
+          <div class="col-3">
+            <ul class="footer-soc">
+              <li class="footer-soc__item">
+    
+              </li>
+              <li class="footer-soc__item">
+                
+              </li>
+              <li class="footer-soc__item">
+                
+              </li>
+              <li class="footer-soc__item">
+                
+              </li>
+              <li class="footer-soc__item">
+              </li>
+            </ul>
+          </div>
 
         </div>
-        <ul class="footer-soc">
-          <li class="footer-soc__item">
 
-          </li>
-          <li class="footer-soc__item">
-            
-          </li>
-          <li class="footer-soc__item">
-            
-          </li>
-          <li class="footer-soc__item">
-            
-          </li>
-          <li class="footer-soc__item">
-            
-          </li>
-        </ul>
-      </div>
+        
+        <!-- <div class="footer-container__nav-box">
+
+
+          <ul class="footer-container__items">
+
+          </ul>
+
+
+
+        </div> -->
+
+      <!-- </div> -->
     </div>
   </footer>
 
