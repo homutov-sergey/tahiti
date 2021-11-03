@@ -19,11 +19,16 @@
 
     }
 
+    .welcome-slider__text {
+        padding-top: 115px;
+        padding-bottom: 115px;
+    }
+
     .welcome-slider__text-title {
-        font-size: 35px;
+        font-size: 28px;
     }
     .welcome-slider__text-subtitle {
-        font-size: 22px;
+        font-size: 16px;
     }
 
     .experience {

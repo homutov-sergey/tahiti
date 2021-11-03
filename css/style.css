@@ -114,7 +114,7 @@ img {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 630px;
+  max-height: 630px;
   width: 100%;
 }
 
@@ -170,6 +170,7 @@ img {
 
 .discover-items {
   margin-top: 43px;
+  padding-bottom: 35px;
 }
 
 .discover-items__item {
@@ -216,7 +217,7 @@ img {
   bottom: 0;
   top: 20px;
   right: 0;
-  left: 238px;
+  left: 87%;
   background-size: 20px 20px;
 }
 
@@ -236,24 +237,23 @@ img {
 
 .discover-form {
   display: flex;
+  padding: 35px 40px 0;
 }
 
 .discover-form__select { 
   font-family: "Gotham Book";
   font-weight: 100;
-  /* width: 670px; */
   font-size: 20px;
-  padding: 14px 25px;
+  padding: 14px 20px;
   background-color: #fff;
   background-image: url("../img/select-arrow.png");
-  background-repeat: no-repeat, repeat;
-  background-position: right .7em top 50%, 0 0;
-  /* background-size: .65em auto, 100%;  */
+  background-repeat: no-repeat;
+  background-position: right 20px top 50%, 0 0;
+  background-size: 16px auto, 100%; 
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
   color: #333;
   border: none;
   appearance: none;
-  margin-right: -4px;
 
 } 
 .discover-form__btn {
@@ -265,6 +265,7 @@ img {
   border-radius: 0;
   padding: 14px 65px;
   background-color: #3dbe98;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
 /* discover end */
@@ -393,27 +394,24 @@ img {
 }
 
 .footer-nav__title {
-  font-size: 18px;
-  color: #ee2255;
   font-family: "Gotham";
   font-weight: 700;
+  font-size: 18px;
+  color: #ee2255;
+  text-transform: uppercase;  
 }
 
-.footer-container__nav-box {
-  display: flex;
-  justify-content: space-between;
-  flex-basis: 630px;
+.footer-container__nav {
+  /* padding: 7px 0 0 65px; */
 }
+
 .footer-container__items {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 250px;
-  margin: 0;
+  
   padding: 0;
 }
 .footer-container__item {
   list-style: none;
-  margin-bottom: 5px;
+  margin-bottom: -6px;
 }
 .footer-container__link {
   font-family: "Gotham";

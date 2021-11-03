@@ -4,7 +4,7 @@ $('.welcom-slide').slick({
     arrows: false,
     infinite: true,
     speed: 800,
-    autoplay: false,
+    autoplay: true,
     fade: true,
     cssEase: 'linear'
   });
