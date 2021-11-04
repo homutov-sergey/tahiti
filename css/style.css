@@ -214,11 +214,11 @@ img {
   position: absolute;
   background-image: url("../img/arrow.png");
   background-repeat: no-repeat;
-  bottom: 0;
-  top: 20px;
-  right: 0;
-  left: 87%;
   background-size: 20px 20px;
+  top: 20px;
+  right: 14px;
+  width: 20px;
+  height: 20px;
 }
 
 .discover-items__link span {
