@@ -49,6 +49,11 @@ img {
   height: auto;
 }
 
+.logo {
+  width: 179px;
+  height: 44px;
+}
+
 .bg-pos {
   background-repeat: no-repeat;
   background-size: cover;
@@ -77,12 +82,6 @@ img {
 
 }
 
-.header-logo,
-.footer-logo {
-  flex-shrink: 0;
-  flex-basis: 179px;
-}
-
 .header {
 	padding: 25px 0 16px 0;
 }
@@ -106,8 +105,10 @@ img {
   font-family: "Gotham Book";
   font-size: 18px;
 	text-transform: uppercase;
-	color: #ee2255;
+}
 
+.navbar-light .navbar-nav .nav-link {
+  color: #ee2255;
 }
 
 .welcom-slide__img {
@@ -427,9 +428,34 @@ img {
 }
 
 
-.footer-soc {
+.footer-social {
+  display: flex;
 }
-.footer-soc__item {
+.footer-social__item {
+  list-style: none;
+}
+
+.footer-social__item-icon {
+  display: block;
+  width: 46px;
+  height: 46px;
+  margin-left: 10px;
+}
+
+.facebooc-icon {
+  background-image: url("../img/facebooc-icon.png");
+}
+.instagram-icon {
+  background-image: url("../img/instagram-icon.png");
+}
+.pinterest-icon {
+ background-image: url("../img/pinterest-icon.png");
+}
+.twitter-icon {
+  background-image: url("../img/twitter-icon.png");
+}
+.youtube-icon {
+  background-image: url("../img/youtube-icon.png");
 }
 
 
