@@ -83,12 +83,7 @@ img {
 }
 
 .header {
-	padding: 25px 0 16px 0;
-}
-
-.header-menu__list {
-	display: flex; 
-  flex-wrap: wrap;
+	padding: 14px 0; 
 }
 
 .header-menu__list-item {
@@ -121,11 +116,10 @@ img {
 
 .welcome-slider__text {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   padding-top: 248px;
-  padding-bottom: 230px;
+  padding-bottom: 246px;
   color: #fff;
 }
 
@@ -309,6 +303,11 @@ img {
   text-decoration: none;
   padding: 18px 72px; 
   background: #ee2255;
+  transition: 0.8s;
+}
+.experience-box__link:hover {
+  color: #fff;
+  background: #cd1c47;
 }
 
 /* END experience */
@@ -326,13 +325,9 @@ img {
   text-align: center;
 }
 .why-list {
-  /* display: flex;
-  justify-content: space-between;
-  padding: 0; */
   margin-top: 40px;
 }
 .why-list__item {
-  /* flex-basis: 358px; */
   font-family: "Gotham Book";
   font-weight: 400;
   color: #777777;
@@ -379,6 +374,11 @@ img {
   color: #fff;
   text-decoration: none;
   padding: 14px 80px;
+  transition: 0.8s;
+}
+.order-box__link:hover {
+  color: #fff;
+  background: #17828f;
 }
 
 /* END order */
@@ -404,7 +404,7 @@ img {
 }
 
 .footer-container__nav {
-  /* padding: 7px 0 0 65px; */
+
 }
 
 .footer-container__items {
