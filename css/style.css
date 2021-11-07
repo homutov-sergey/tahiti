@@ -104,6 +104,11 @@ img {
 
 .navbar-light .navbar-nav .nav-link {
   color: #ee2255;
+  transition: 0.7s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #cb5252;
 }
 
 .welcom-slide__img {
@@ -201,7 +206,11 @@ img {
   text-transform: uppercase;
   color: #aee0cf;
   background: #3dbe98;
-  padding: 16px 20px 14px 20px ;
+  padding: 16px 20px 14px 20px;
+  transition: 0.7s;
+}
+.discover-items__link:hover {
+  color: #fff;
 }
 
 .discover-items__link::after {
@@ -261,6 +270,11 @@ img {
   padding: 14px 65px;
   background-color: #3dbe98;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+  transition: 0.8s;
+}
+.discover-form__btn:hover {
+  color: #fff;
+  background-color: #38cfa2;
 }
 
 /* discover end */
@@ -422,6 +436,9 @@ img {
   font-size: 16px;
   text-decoration: none;
 }
+.footer-container__link:hover {
+  color: #f7a6b5;
+}
 
 .footer-container__link:hover {
   text-decoration: underline;
@@ -430,6 +447,11 @@ img {
 
 .footer-social {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
 }
 .footer-social__item {
   list-style: none;
@@ -439,7 +461,6 @@ img {
   display: block;
   width: 46px;
   height: 46px;
-  margin-left: 10px;
 }
 
 .facebooc-icon {
