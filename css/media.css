@@ -76,6 +76,14 @@
     .discover-form__select {
         margin-top: 10px;
     }
+
+    .footer-container__nav {
+        margin-top: 25px;
+    }
+
+    .footer-container__item {
+        margin-bottom: 2px;
+      }
 } 
 
 
