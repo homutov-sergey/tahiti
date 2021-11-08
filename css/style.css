@@ -133,6 +133,7 @@ img {
   font-weight: 700;
   font-size: 64px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .welcome-slider__text-title span {
