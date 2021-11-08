@@ -447,14 +447,13 @@ img {
 
 .footer-social {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
 }
 .footer-social__item {
   list-style: none;
+  margin-left: 5px;
 }
 
 .footer-social__item-icon {
